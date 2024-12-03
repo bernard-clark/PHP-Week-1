@@ -1,0 +1,69 @@
+        /* Style for the body to set the font and margin */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: turquoise;
+            color: orange;
+        }
+
+        header {
+            color:yellow;
+        }
+
+        h1 {
+            color:greenyellow;
+        }
+
+        h3 {
+            color: blue;
+        }
+
+        a {
+            color: purple;
+        }
+
+        /* Center the form and set a maximum width */
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Styling labels to give some spacing above the input fields */
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        /* Style for inputs, textarea, and button */
+        input, textarea, button {
+            width: 100%; /* Make them take the full width of the form */
+            padding: 10px; /* Add some padding for better appearance */
+            margin-bottom: 15px; /* Space between elements */
+            border: 1px solid black; /* Light gray border */
+            border-radius: 5px; /* Rounded corners */
+        }
+
+        /* Style for buttons to make them stand out */
+        button {
+            background-color: pink; /* Blue background */
+            color: white; /* White text */
+            border: 1px solid black; /* No border */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+
+        /* Darker background on hover for the button */
+        button:hover {
+            background-color: magenta;
+        }
+
+        /* Style for error messages */
+        .error {
+            color: red; /* Red text for errors */
+            font-size: 0.9em; /* Smaller font size */
+        }
+
+        /* Style for success messages */
+        .success {
+            color: green; /* Green text for success */
+            font-weight: bold; /* Bold text */
+        }
